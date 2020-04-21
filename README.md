@@ -22,13 +22,13 @@ project_tests.py
 The goal of this project is applying concepts of rank based recommendations, content based recommendations, and user-user collaborative filtering.
 This will help IBM Watson Studio users to get relevant recommendations on next reads and keep them engaged.
 ## Analysis:
-1.Collaborative Filtering
+1. Collaborative Filtering
 Takes into account the similarity of users and recommends the most popular articles read by similar users
-Rank Based Recommendations
+2. Rank Based Recommendations
 Recommends the top ranked articles starting with the most highly ranked
-Content Based Filtering
+3. Content Based Filtering
 Produces recommendations based on similarity to material the user has interacted with previously. Utilizes Natural Language Processing (NLP) methodology to analyse and rank articles by similarity.
-SVD - Matrix Factorization Recommendations
+4. SVD - Matrix Factorization Recommendations
 Utilises matrix operations to predict the ranking (or in this case the boolean interaction variable)
 ## Acknowledgement
 Thanks to Udacity Data Scientist Nanodegree content creators for providing us the opportunity to work on this project.
