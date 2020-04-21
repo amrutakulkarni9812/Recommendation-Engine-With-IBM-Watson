@@ -13,6 +13,9 @@ Beyond the Anaconda distribution of Python, the following packages need to be in
 There are two files: 
 1. data/user-item-interactions.csv: the articles each user has viewed
 2. data/articles_community.csv: details of the articles
+## Project Motivation
+The goal of this project is applying concepts of rank based recommendations, content based recommendations, and user-user collaborative filtering.
+This will help IBM Watson Studio users to get relevant recommendations on next reads and keep them engaged.
 ## Analysis:
 1.Collaborative Filtering
 Takes into account the similarity of users and recommends the most popular articles read by similar users
@@ -22,8 +25,5 @@ Content Based Filtering
 Produces recommendations based on similarity to material the user has interacted with previously. Utilizes Natural Language Processing (NLP) methodology to analyse and rank articles by similarity.
 SVD - Matrix Factorization Recommendations
 Utilises matrix operations to predict the ranking (or in this case the boolean interaction variable)
-## Project Motivation
-The goal of this project is applying concepts of rank based recommendations, content based recommendations, and user-user collaborative filtering.
-This will help IBM Watson Studio users to get relevant recommendations on next reads and keep them engaged.
 ## Acknowledgement
 Thanks to Udacity Data Scientist Nanodegree content creators for providing us the opportunity to work on this project.
