@@ -9,10 +9,15 @@ Beyond the Anaconda distribution of Python, the following packages need to be in
   nltk.punkt
   nltk.wordnet
   nltk.stopwords
-## Datasets Introduction
-There are two files: 
+## File Description
+### Datasets 
 1. data/user-item-interactions.csv: the articles each user has viewed
 2. data/articles_community.csv: details of the articles
+### Python Notebook and HTML
+Recommendations_with_IBM.ipynb
+Recommendations_with_IBM.html
+### Tests and solutions provided by Udacity to check code accuracy
+project_tests.py
 ## Project Motivation
 The goal of this project is applying concepts of rank based recommendations, content based recommendations, and user-user collaborative filtering.
 This will help IBM Watson Studio users to get relevant recommendations on next reads and keep them engaged.
